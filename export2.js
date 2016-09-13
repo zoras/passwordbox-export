@@ -30,11 +30,6 @@ function processItem(i){
 
 addSpaces = function(num,str){return str + new Array( Math.max(num - str.length,1) ).join(' ')} // for formatting logging
 
-
-
-
-
-
 // Generic function for exporting to csv
 function exportToCsv(filename, rows) {
         var processRow = function (row) {
