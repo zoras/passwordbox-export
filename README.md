@@ -4,7 +4,9 @@ To cover for the lack of an export function in PasswordBox, here is a "hack" you
 [![Watch Video](http://img.youtube.com/vi/1A9aIu8puMQ/0.jpg)](https://www.youtube.com/watch?v=1A9aIu8puMQ)
 
 ## LastPass Update
+
 Now the CSV output is created in a format that is directly importable to LastPass!
+
 1. Sign up for your free trial at [cat5.tv/lastpass](https://cat5.tv/lastpass)
 2. Enter your LastPass Vault and choose *More Options->Advanced->Import*
 3. Choose *Generic CSV File* from the drop down and paste the content of your CSV output
