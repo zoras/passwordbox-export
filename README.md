@@ -1,6 +1,8 @@
 # Export for PasswordBox Chrome plugin
 To cover for the lack of an export function in PasswordBox, here is a "hack" you're welcome to use if you want to export your passwords to another password manager. Developed by [klingenm](https://github.com/klingenm/passwordbox-export).
 
+[![Watch Video](http://img.youtube.com/vi/1A9aIu8puMQ/0.jpg)](https://www.youtube.com/watch?v=1A9aIu8puMQ)
+
 ## Usage
 1. Install [Chrome Apps & Extensions Developer Tool](https://chrome.google.com/webstore/detail/chrome-apps-extensions-de/ohmmkhmmmpcnpikjeljgnaoabkaalbgc?hl=en)
 2. Login with your credentials to the PasswordBox extension
