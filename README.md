@@ -22,3 +22,5 @@ An ideal drop-in replacement for PasswordBox. Similar functionality and supports
 1. Sign up for your free trial at [cat5.tv/lastpass](https://cat5.tv/lastpass)
 2. Enter your LastPass Vault and choose *More Options->Advanced->Import*
 3. Choose *Generic CSV File* from the drop down and paste the content of your CSV output
+4. Click "Check Data For Sites" and ensure everything looks good
+5. Click Import
