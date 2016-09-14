@@ -3,7 +3,7 @@ To cover for the lack of an export function in PasswordBox, here is a "hack" you
 
 [![Watch Video](http://img.youtube.com/vi/1A9aIu8puMQ/0.jpg)](https://www.youtube.com/watch?v=1A9aIu8puMQ)
 
-## Usage
+## How To Export Your PasswordBox Stored Passwords with *passwordbox-export*
 1. Install [Chrome Apps & Extensions Developer Tool](https://chrome.google.com/webstore/detail/chrome-apps-extensions-de/ohmmkhmmmpcnpikjeljgnaoabkaalbgc?hl=en)
 2. Login with your credentials to the PasswordBox extension
 3. Right click anywhere in the PasswordBox popup and click "Inspect Element"
