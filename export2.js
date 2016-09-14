@@ -1,5 +1,7 @@
+// Output can be imported directly into LastPass via "More Options->Advanced->Import->Generic CSV File"
+// Sign Up for LastPass: https://cat5.tv/lastpass
 
-result = [["website","name","login","login2","password","category","note"]]; // format for csv file, if you need a different one, make line 20 match it
+result = [["url","name","username","extra","password","grouping","type"]]; // format for csv file, if you need a different one, make line 20 match it
 items = document.getElementsByClassName("bt_edit");
 var len;
 // go to main view in case it isn't there already, then start.
