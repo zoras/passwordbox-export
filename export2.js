@@ -14,20 +14,20 @@ start = setInterval(function(){
 },10);
 
 function processItem(i){
-  items[i].click();									// click edit button
-  inter = setInterval(function(){					
-    if(typeof(username_fill)==undefined) return;	// wait until item loads
+  items[i].click();                                 // click edit button
+  inter = setInterval(function(){
+    if((typeof(username_fill)==undefined) || (typeof(username_fill)=="undefined")) return;  // wait until item loads
     clearInterval(inter);
-    console.log( i + "\t"+addSpaces(30,title_fill.value) + addSpaces(30,username_fill.value) + password_fill.value);			// print item to see progress
-    result.push( [  url_fill.value, title_fill.value, username_fill.value, "" , password_fill.value,"" , memo_fill.value ]);	// add values to results array to be converted into csv file. Empty values should be empty strings, don't use null or leave blank
-    bt_passwordbox.click();							// return to main view
+    console.log( i + "\t"+addSpaces(30,title_fill.value) + addSpaces(30,username_fill.value) + password_fill.value);            // print item to see progress
+    result.push( [ url_fill.value, title_fill.value, username_fill.value, "" , password_fill.value,"" , memo_fill ? memo_fill.value : '' ]);    // add values to results array to be converted into csv file. Empty values should be empty strings, don't use null or leave blank
+    bt_passwordbox.click();                         // return to main view
     inter2 = setInterval(function(){
-      if(items.length == 0) return;					// wait until main view loads
+      if(items.length == 0) return;                 // wait until main view loads
       clearInterval(inter2);
-      if(i<len-1) processItem(++i);					// process next item or export file if done
+      if(i<len-1) processItem(++i);                 // process next item or export file if done
       else exportToCsv("result.csv",result);
     },10);
-  },10); 
+  },10);
 }
 
 addSpaces = function(num,str){return str + new Array( Math.max(num - str.length,1) ).join(' ')} // for formatting logging
